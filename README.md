@@ -1,6 +1,6 @@
 ## Aim
 This program ("Segmentation_and_Sholl.ijm") is designed to partially automate Sholl analysis of astrocytes. 
-Trial analysis can be run using the segmentation model and image file included in this repository.
+Demo analysis can be run using the segmentation model and image file included in this repository.
 
 ## Input
 1. Multichannel 2-dimensional stack images, including fluorescent staining of astrocytes and nuclei. 

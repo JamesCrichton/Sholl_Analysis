@@ -1,0 +1,2 @@
+ ,Image,Segmentation_Model,Sholl_step_size,Sholl_starting_radius,Nuclear_Channel,Cell_Body_Channel,ROIs_Analysed
+1,C:\Users\jcc234\OneDrive - University of Exeter\Documents\Projects\Liming Yang\Segmenting astrocytes\Automating analysis\Sholl_Seg_Analysis\Test_Image.tif,C:\Users\jcc234\OneDrive - University of Exeter\Documents\Projects\Liming Yang\Segmenting astrocytes\Automating analysis\Sholl_Seg_Analysis\ML_Segmentation.model,10,10,2.0,1.0,2

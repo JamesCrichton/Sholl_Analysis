@@ -195,3 +195,13 @@ for (i=0;i<lengthOf(open_names);i++){
 roiManager("Save", dir2+File.separator+"Analysis_Selection.zip"); //save ROIs
 close("Channels");close("ROI Manager");
 close("*");
+
+//Save the settings used for reference
+setResult("Image", 0, file_path);
+setResult("Segmentation_Model", 0, seg_model);
+setResult("Sholl_step_size", 0, step_size);
+setResult("Sholl_starting_radius", 0, centroid_distance);
+setResult("Nuclear_Channel", 0, nuclear_channel);
+setResult("Cell_Body_Channel", 0, astrocyte_channel);
+setResult("ROIs_Analysed", 0, n_ROI);
+selectWindow("Results");saveAs("results", dir3+File.separator+"Macro_Settings.csv");

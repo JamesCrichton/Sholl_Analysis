@@ -1,14 +1,14 @@
-##Aim
+## Aim
 This program ("Segmentation_and_Sholl.ijm") is designed to partially automate Sholl analysis of astrocytes. 
 Trial analysis can be run using the segmentation model and image file included in this repository.
 
-##Input
+## Input
 1. Multichannel 2-dimensional stack images, including fluorescent staining of astrocytes and nuclei. 
 2. Segmentation model.
   - This currently uses the Advanced Weka plugin which is included in Fiji v1.54j.
   - Bespoke segmentation models should be train for specific image datasets independently
 
-##Usage
+## Usage
 Download the full repository and install the Neuroanatomy plugin to Fiji using the Help >> Update... >> Manage Update Sites >> Neuroanatomy >> Apply and Close
 
 Open "Segmentation_and_Sholl.ijm" in Fiji and run. This will close any open windows.

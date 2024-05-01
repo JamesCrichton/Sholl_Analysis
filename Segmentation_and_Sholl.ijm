@@ -204,4 +204,4 @@ setResult("Sholl_starting_radius", 0, centroid_distance);
 setResult("Nuclear_Channel", 0, nuclear_channel);
 setResult("Cell_Body_Channel", 0, astrocyte_channel);
 setResult("ROIs_Analysed", 0, n_ROI);
-selectWindow("Results");saveAs("results", dir3+File.separator+"Macro_Settings.csv");
+selectWindow("Results");saveAs("results", dir3+File.separator+"Macro_Settings.csv");close("Macro_Settings.csv");

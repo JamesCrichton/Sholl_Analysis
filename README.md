@@ -16,7 +16,7 @@ Open "Segmentation_and_Sholl.ijm" in Fiji and run. This will close any open wind
 - Path to image you with to analyse
 - Path to the segmentation model
 - The program uses the nucleus to set the centre of the Sholl analysis. How far from the centre should this start (px)
-- How much separation would you like between the Sholl analysis rings?
+- How much separation would you like between the Sholl analysis rings (px)?
 
 2. Specify which channel number in the multichannel stack represents the nucleus and which is the astrocyte staining
 

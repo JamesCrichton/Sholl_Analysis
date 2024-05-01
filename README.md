@@ -1,6 +1,6 @@
 ## Aim
 This program ("Segmentation_and_Sholl.ijm") is designed to partially automate Sholl analysis of astrocytes. 
-Demo analysis can be run using the segmentation model and image file included in this repository.
+Demo analysis can be run using the segmentation model and image file included in this repository ("Test_Image.tif").
 
 ## Input
 1. Multichannel 2-dimensional stack images, including fluorescent staining of astrocytes and nuclei. 
@@ -27,5 +27,8 @@ Open "Segmentation_and_Sholl.ijm" in Fiji and run. This will close any open wind
 4. Draw around cells you wish to analyse using the freehand tool and add to the ROI Manager (press "T"). When complete press "OK". Analysis will run and save outputs
 - Use the "Channels" tool to also inspect the segmentation of nuclei and cellular extensions, and guide ROI selection
 - ROIs addition/removal and inspection can be managed further using the "ROI Manager" tool
+
+## Output
+Example output can be seen in the Folder "Test_Image/"
 
 

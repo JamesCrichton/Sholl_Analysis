@@ -1,6 +1,6 @@
-//James Crichton
-//Script to segment fluorescent images of astrocytes to create binary skeletons and nuclear masks for Scholl analysis downstream
-//Requires installation of the Neuroanatomy plugin 
+//Written by James Crichton
+//Script to segment fluorescent images of astrocytes to create binary skeletons and nuclear masks. These are subsequently quantified by Scholl analysis.
+//Requires installation of the Neuroanatomy plugin. 
 //Input images currently need to be 2D stacks containing a nuclear image and an astrocyte marker e.g. GFAP
 
 
